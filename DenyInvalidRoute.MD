@@ -1,0 +1,1 @@
+gcloud compute routes create test-allowed-internal-route --destination-range=10.0.0.0/16 --network=default --next-hop-instance=example-instance --next-hop-instance-zone=europe-west2 --priority=1000 
